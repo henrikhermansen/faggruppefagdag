@@ -1,0 +1,32 @@
+{
+  "name": "faggruppefagdag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-markdown": "^4.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "PORT=3000 npm run start-with-port",
+    "start-with-port": "NODE_ENV=production node server.js -p $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikhermansen/faggruppefagdag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrikhermansen/faggruppefagdag/issues"
+  },
+  "homepage": "https://github.com/henrikhermansen/faggruppefagdag#readme"
+}
